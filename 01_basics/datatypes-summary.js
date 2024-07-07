@@ -39,3 +39,29 @@ console.log(typeof outsideTemp); //ye to null hai pr o/p me object aaya bcz
 console.log(typeof heros)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ***********************************************
+
+
+// Stack memory(Primitive), Heap (Non-Primitive)
+
+
+let myYoutubename = "anjalidotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email =  "anjali@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
